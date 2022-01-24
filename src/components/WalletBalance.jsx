@@ -12,7 +12,7 @@ function WalletBalance(){
     };
 
     return(
-        <div className="card">
+        <div>
             <div>
                 <h3>Your Balance: {balance}</h3>
                 <button onClick={() => getBalance()}>Show Balance</button>
